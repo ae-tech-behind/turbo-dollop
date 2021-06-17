@@ -1,7 +1,6 @@
 package controller
 
 import (
-	"fmt"
 	"net/http"
 	"net/http/httptest"
 	"reflect"
@@ -96,27 +95,6 @@ func TestSomething_HandlerSomething(t *testing.T) {
 			wantResp: "{\"test\":1}\n",
 			wantCode: http.StatusOK,
 			wantErr:  false,
-		}, {
-			name: "HandlerSomething",
-			fields: fields{
-				UseCase: mocks.NewMockSomethingUseCase(mockCtrl),
-			},
-			args: args{
-				req: httptest.NewRequest(
-					http.MethodPost,
-					"/",
-					strings.NewReader(`{"info":"test"}`),
-				),
-				rec: httptest.NewRecorder(),
-			},
-			argsUC: argsUC{
-				params:   "test",
-				response: map[string]int{"test": 1},
-				err:      fmt.Errorf("Something went wrong"),
-			},
-			wantResp: "invalid json",
-			wantCode: http.StatusBadRequest,
-			wantErr:  true,
 		},
 	}
 	for _, tt := range tests {
