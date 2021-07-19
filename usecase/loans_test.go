@@ -6,7 +6,7 @@ import (
 
 	"github.com/ae-tech-behind/turbo-dollop/entity"
 	"github.com/ae-tech-behind/turbo-dollop/store"
-	"github.com/ae-tech-behind/turbo-dollop/controller/mocks"
+	"github.com/ae-tech-behind/turbo-dollop/usecase/mocks"
 
 	"github.com/golang/mock/gomock"
 )
