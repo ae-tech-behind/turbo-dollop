@@ -8,6 +8,7 @@ import (
 	"github.com/labstack/echo"
 )
 
+//go:generate mockgen -destination=./mocks/mock_usecase_books.go -package=mocks github.com/ae-tech-behind/turbo-dollop/controller BooksUseCase
 type BooksUseCase interface {
 	GetBook(string) (*entity.Book, error)
 	GetBooks() ([]entity.Book, error)

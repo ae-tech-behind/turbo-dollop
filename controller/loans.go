@@ -8,7 +8,6 @@ import (
 	"github.com/labstack/echo"
 )
 
-//go:generate mockgen -destination=./mocks/mock_usecase_loans.go -package=mocks github.com/eiizu/go-service/controller LoansUseCase
 type LoansUseCase interface {
 	GetLoans(map[string]string) (map[string]entity.Loan, error)
 	CreateLoan(entity.Loan) (*entity.Loan, error)
