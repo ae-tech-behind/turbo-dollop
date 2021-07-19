@@ -3,7 +3,7 @@ package usecase
 import (
 	"fmt"
 
-	"github.com/eiizu/go-service/entity"
+	"github.com/ae-tech-behind/turbo-dollop/entity"
 )
 
 type StoreUser interface {

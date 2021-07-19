@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ae-tech-behind/turbo-dollop/entity"
 	sq "github.com/Masterminds/squirrel"
-	"github.com/eiizu/go-service/entity"
 	"github.com/google/uuid"
 	_ "github.com/lib/pq"
 )

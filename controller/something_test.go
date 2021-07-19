@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/eiizu/go-service/controller/mocks"
+	"github.com/ae-tech-behind/turbo-dollop/controller/mocks"
 
 	"github.com/golang/mock/gomock"
 	"github.com/labstack/echo"

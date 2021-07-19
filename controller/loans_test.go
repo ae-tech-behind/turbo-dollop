@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/eiizu/go-service/controller/mocks"
-	"github.com/eiizu/go-service/entity"
-	"github.com/eiizu/go-service/usecase"
+	"github.com/ae-tech-behind/turbo-dollop/controller/mocks"
+	"github.com/ae-tech-behind/turbo-dollop/entity"
+	"github.com/ae-tech-behind/turbo-dollop/usecase"
 	"github.com/golang/mock/gomock"
 	"github.com/labstack/echo"
 )

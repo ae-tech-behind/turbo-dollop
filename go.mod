@@ -1,31 +1,25 @@
-module github.com/eiizu/go-service
+module github.com/ae-tech-behind/turbo-dollop
 
-go 1.15
+go 1.16
 
 require (
-	github.com/Masterminds/squirrel v1.5.0
-	github.com/auth0/go-jwt-middleware v1.0.0 // indirect
-	github.com/codegangsta/negroni v1.0.0 // indirect
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/go-session/session v3.1.2+incompatible // indirect
-	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/golang/mock v1.5.0
-	github.com/google/uuid v1.2.0
-	github.com/gorilla/mux v1.8.0 // indirect
-	github.com/kr/pretty v0.1.0 // indirect
-	github.com/labstack/echo v3.3.10+incompatible
-	github.com/labstack/echo/v4 v4.2.1
-	github.com/lib/pq v1.9.0
-	github.com/rs/cors v1.7.0
-	github.com/sirupsen/logrus v1.4.2
-	github.com/stretchr/objx v0.2.0 // indirect
-	github.com/stretchr/testify v1.7.0 // indirect
-	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4 // indirect
-	golang.org/x/oauth2 v0.0.0-20210402161424-2e8d93401602
-	golang.org/x/text v0.3.6 // indirect
-	google.golang.org/api v0.44.0
-	google.golang.org/genproto v0.0.0-20210406143921-e86de6bf7a46 // indirect
-	google.golang.org/grpc v1.37.0 // indirect
-	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
-	gopkg.in/oauth2.v3 v3.12.0
+	git.apache.org/thrift.git v0.0.0-20180902110319-2566ecd5d999 // indirect
+	github.com/Masterminds/squirrel v1.5.0 // indirect
+	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
+	github.com/ghodss/yaml v1.0.0 // indirect
+	github.com/golang/lint v0.0.0-20180702182130-06c8688daad7 // indirect
+	github.com/golang/mock v1.5.0 // indirect
+	github.com/google/uuid v1.1.2 // indirect
+	github.com/grpc-ecosystem/grpc-gateway v1.5.0 // indirect
+	github.com/labstack/echo v3.3.10+incompatible // indirect
+	github.com/labstack/gommon v0.3.0 // indirect
+	github.com/lib/pq v1.10.2 // indirect
+	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
+	github.com/openzipkin/zipkin-go v0.1.1 // indirect
+	github.com/prometheus/client_golang v0.8.0 // indirect
+	github.com/prometheus/common v0.0.0-20180801064454-c7de2306084e // indirect
+	github.com/prometheus/procfs v0.0.0-20180725123919-05ee40e3a273 // indirect
+	github.com/sirupsen/logrus v1.8.1 // indirect
+	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97 // indirect
+	google.golang.org/api v0.50.0 // indirect
 )

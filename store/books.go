@@ -3,8 +3,8 @@ package store
 import (
 	"fmt"
 
+	"github.com/ae-tech-behind/turbo-dollop/entity"
 	sq "github.com/Masterminds/squirrel"
-	"github.com/eiizu/go-service/entity"
 	_ "github.com/lib/pq"
 )
 

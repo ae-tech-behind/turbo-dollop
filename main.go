@@ -7,11 +7,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/eiizu/go-service/controller"
-	"github.com/eiizu/go-service/router"
-	"github.com/eiizu/go-service/service"
-	"github.com/eiizu/go-service/store"
-	"github.com/eiizu/go-service/usecase"
+	"github.com/ae-tech-behind/turbo-dollop/controller"
+	"github.com/ae-tech-behind/turbo-dollop/router"
+	"github.com/ae-tech-behind/turbo-dollop/service"
+	"github.com/ae-tech-behind/turbo-dollop/store"
+	"github.com/ae-tech-behind/turbo-dollop/usecase"
+
 	"github.com/labstack/echo"
 	_ "github.com/lib/pq"
 	"github.com/sirupsen/logrus"

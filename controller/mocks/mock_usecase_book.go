@@ -5,7 +5,7 @@
 package mocks
 
 import (
-	entity "github.com/eiizu/go-service/entity"
+	entity "github.com/ae-tech-behind/turbo-dollop/entity"
 	gomock "github.com/golang/mock/gomock"
 	reflect "reflect"
 )

@@ -4,9 +4,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/eiizu/go-service/entity"
-	"github.com/eiizu/go-service/store"
-	"github.com/eiizu/go-service/usecase/mocks"
+	"github.com/ae-tech-behind/turbo-dollop/entity"
+	"github.com/ae-tech-behind/turbo-dollop/store"
+	"github.com/ae-tech-behind/turbo-dollop/controller/mocks"
+
 	"github.com/golang/mock/gomock"
 )
 

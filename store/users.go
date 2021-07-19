@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/eiizu/go-service/entity"
+	"github.com/ae-tech-behind/turbo-dollop/entity"
 	_ "github.com/lib/pq"
 )
 

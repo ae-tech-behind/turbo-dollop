@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/eiizu/go-service/entity"
+	"github.com/ae-tech-behind/turbo-dollop/entity"
 	"github.com/labstack/echo"
 )
 
