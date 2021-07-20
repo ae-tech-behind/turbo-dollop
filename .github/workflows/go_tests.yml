@@ -1,8 +1,6 @@
-name: Go
+name: Go test Pull
 
 on:
-  push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
 
